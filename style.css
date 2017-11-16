@@ -1,0 +1,13 @@
+h1{
+	text-align: center;
+	color:#5555EE;
+}
+hr{
+	border:solid #888888 2px;
+}
+.aside{
+	float: left;
+}
+.bod{
+	float: right;
+}
