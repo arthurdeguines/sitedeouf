@@ -9,7 +9,7 @@
 <body>
     <h1>Site sql</h1><hr />
 
-<?php
+<?php //test
 echo strlen('testé');
 $but="contacts";
 // On créé la requête
