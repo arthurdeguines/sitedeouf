@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -119,23 +119,14 @@ $but="contacts";
 // on se connecte à MySQL
 // on se connecte à MySQL et on sélectionne la base
 $req = "SELECT * FROM contacts";
-function changereq($table){
 
-	return "SELECT * FROM $table";
-}
 if(isset($_GET['but'])){
     $req = changereq($_GET['but']);
 }else{
     $req = "SELECT * FROM contacts";
 }
 
-function getBut(){
-    if(isset($_GET['but'])){
-    return $_GET['but'];
-}else{
-    return "contacts";
-}
-}
+
 
 $conn = mysqli_connect('localhost', 'root', '', 'solar_panel');
 
